@@ -1,0 +1,24 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environment
+venv/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/project settings
+.vscode/
+.idea/
+
+# Ignore environment variables
+.env
+.venv
+venv
+
+# Ignore build/dist files
+build/
+dist/
+*.egg-info/
