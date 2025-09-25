@@ -6,11 +6,8 @@ from pose_utils import draw_pose
 
 
 def main():
-    # Load models
     det_model = YOLO(DET_MODEL_PATH)
     pose_model = YOLO(POSE_MODEL_PATH)
-
-    # Load image
     image = cv2.imread(IMAGE_PATH)
     if image is None:
         print(f"Error: Could not load image {IMAGE_PATH}")
@@ -49,7 +46,7 @@ def main():
         device=DEVICE,
         verbose=False
     )
-
+    
     # Draw keypoints
     for result in pose_results:
         if result.keypoints is not None:

@@ -23,3 +23,7 @@ venv
 build/
 dist/
 *.egg-info/
+# Ignore files
+yolo11x.pt
+yolo11x-pose.pt
+dataset/person.jpg
