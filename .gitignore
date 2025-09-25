@@ -18,6 +18,7 @@ Thumbs.db
 .venv
 venv
 
+
 # Ignore build/dist files
 build/
 dist/

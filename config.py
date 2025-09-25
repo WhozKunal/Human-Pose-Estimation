@@ -1,0 +1,15 @@
+
+# YOLO models
+DET_MODEL_PATH = "yolo11x.pt"
+POSE_MODEL_PATH = "yolo11x-pose.pt"
+
+IMAGE_PATH = "dataset/person.jpg"
+SAVE_PATH = "outputs/people_pose.jpg"
+
+
+
+
+# Detection settings
+CONF_THRESHOLD = 0.25
+IOU_THRESHOLD = 0.45
+DEVICE = "cpu"
