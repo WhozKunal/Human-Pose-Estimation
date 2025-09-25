@@ -27,3 +27,4 @@ dist/
 yolo11x.pt
 yolo11x-pose.pt
 dataset/person.jpg
+venv/
