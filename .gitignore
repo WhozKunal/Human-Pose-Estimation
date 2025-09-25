@@ -1,30 +1,29 @@
-# Ignore Python cache
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.pyc
 
-# Ignore virtual environment
+# Virtual environment
 venv/
+env/
+.venv/
 
-# Ignore OS files
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Dataset or large files (you can track some with Git LFS)
+dataset/
+*.mp4
+*.pt
+
+# Runs, logs, and outputs
+runs/
+*.log
+*.tmp
+*.out
+
+# OS generated files
 .DS_Store
 Thumbs.db
-
-# Ignore IDE/project settings
-.vscode/
-.idea/
-
-# Ignore environment variables
-.env
-.venv
-venv
-
-
-# Ignore build/dist files
-build/
-dist/
-*.egg-info/
-# Ignore files
-yolo11x.pt
-yolo11x-pose.pt
-dataset/person.jpg
-venv/
