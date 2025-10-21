@@ -1,29 +1,81 @@
+# ===============================
 # Python
+# ===============================
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.pyc
+*.pkl
+*.pdb
 
-# Virtual environment
+# ===============================
+# Virtual Environments
+# ===============================
 venv/
 env/
 .venv/
 
-# Jupyter notebooks checkpoints
+# ===============================
+# Jupyter Notebooks
+# ===============================
 .ipynb_checkpoints/
 
-# Dataset or large files (you can track some with Git LFS)
+# ===============================
+# Datasets, Models, and Large Files
+# ===============================
 dataset/
-*.mp4
 *.pt
+*.h5
+*.onnx
+*.ckpt
+*.weights
+*.mp4
+*.avi
+*.mov
+*.webm
+*.mkv
+*.zip
+*.tar
+*.gz
+*.7z
 
-# Runs, logs, and outputs
+# Specific large model files
+/AI-Basketball-Referee/yolov8s-pose.pt
+/AI-Basketball-Referee/basketballModel.pt
+/yolo11x.pt
+/yolo11x-pose.pt
+
+# ===============================
+# Runs, Logs, and Outputs
+# ===============================
 runs/
+outputs/
 *.log
 *.tmp
 *.out
+*.jsonl
 
-# OS generated files
+# ===============================
+# OS and Editor Generated Files
+# ===============================
 .DS_Store
 Thumbs.db
+*.swp
+*.swo
+
+# ===============================
+# Build and Distribution Files
+# ===============================
+build/
+dist/
+*.egg-info/
+*.spec
+
+# ===============================
+# Project-specific Ignored Files
+# ===============================
+__pycache__/
+__pycache__/*
+AI-Basketball-Referee/full_output/
+AI-Basketball-Referee/video/
+AI-Basketball-Referee/travel_footage/
